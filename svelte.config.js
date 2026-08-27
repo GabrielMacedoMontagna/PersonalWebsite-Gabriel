@@ -12,8 +12,8 @@ const config = {
 			precompress: false,
 			strict: true
 		}),
-		files: {
-			appTemplate: 'src/index.html'
+		paths: {
+			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH || ''
 		},
 		prerender: {
 			entries: ['*', '/pt', '/en', '/pt/', '/en/']

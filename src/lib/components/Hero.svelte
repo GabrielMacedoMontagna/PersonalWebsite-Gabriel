@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import type { HeroContent, Profile } from '$lib/types/portfolio';
 
 	let {
@@ -8,12 +9,17 @@
 		content: HeroContent;
 		profile: Profile;
 	} = $props();
+
+	let resolvedImageSrc = $derived.by(() => {
+		const src = content.imagePlaceholderSrc || '/images/hero-placeholder.svg';
+		return src.startsWith('http') ? src : `${base}${src}`;
+	});
 </script>
 
 <section class="hero-section" id="home">
 	<!-- Background image with shaded gradient overlays -->
 	<img
-		src={content.imagePlaceholderSrc || '/images/hero-placeholder.svg'}
+		src={resolvedImageSrc}
 		alt={content.imageAlt}
 		class="hero-image"
 		loading="eager"

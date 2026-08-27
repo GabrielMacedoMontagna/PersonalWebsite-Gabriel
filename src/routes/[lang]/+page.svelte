@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import type { PageData } from './$types';
 	import Navbar from '$lib/components/Navbar.svelte';
 	import Hero from '$lib/components/Hero.svelte';
@@ -28,9 +29,9 @@
 	<meta name="twitter:description" content={content.seo.description} />
 	
 	<!-- Alternates i18n -->
-	<link rel="alternate" hreflang="pt-BR" href="/pt/" />
-	<link rel="alternate" hreflang="en" href="/en/" />
-	<link rel="alternate" hreflang="x-default" href="/pt/" />
+	<link rel="alternate" hreflang="pt-BR" href="{base}/pt/" />
+	<link rel="alternate" hreflang="en" href="{base}/en/" />
+	<link rel="alternate" hreflang="x-default" href="{base}/pt/" />
 </svelte:head>
 
 <Navbar

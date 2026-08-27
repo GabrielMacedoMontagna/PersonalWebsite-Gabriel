@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import type { NavItem, SupportedLanguage } from '$lib/types/portfolio';
 
 	let {
@@ -38,7 +39,7 @@
 		<div class="nav-actions">
 			<div class="lang-switcher" aria-label="Seletor de idioma">
 				<a
-					href="/pt/"
+					href="{base}/pt/"
 					class="lang-btn {currentLang === 'pt' ? 'active' : ''}"
 					aria-label="Versão em Português"
 				>
@@ -46,7 +47,7 @@
 				</a>
 				<span class="lang-divider">/</span>
 				<a
-					href="/en/"
+					href="{base}/en/"
 					class="lang-btn {currentLang === 'en' ? 'active' : ''}"
 					aria-label="English version"
 				>
