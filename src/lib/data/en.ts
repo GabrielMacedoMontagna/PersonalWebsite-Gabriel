@@ -4,21 +4,20 @@ export const enData: PortfolioData = {
 	lang: 'en',
 	htmlLang: 'en',
 	seo: {
-		title: '[Your Name] | [Your Role / Speciality]',
-		description: 'Online resume and personal portfolio of [Your Name]. Software engineer focused on building robust and scalable digital products.',
-		siteName: '[Your Name]',
-		keywords: ['Software Engineer', 'Developer', 'Portfolio', 'Tech', 'TypeScript', 'SvelteKit']
+		title: 'Gabriel Montagna | Developer / AI Engineer',
+		description: 'Online resume and personal portfolio of Gabriel Montagna. Software engineer focused on building robust and scalable digital products.',
+		siteName: 'Gabriel Montagna',
+		keywords: ['AI Engineer', 'Developer', 'Portfolio', 'Tech', 'TypeScript', 'SvelteKit']
 	},
 	profile: {
-		name: '[Your Full Name]',
-		role: '[Your Role / Area of Expertise]',
-		email: 'your-email@example.com',
-		location: 'São Paulo, Brazil',
-		summary: 'Developer focused on creating well-structured digital products with clean code, reliable backend architectures, and fast user interfaces.',
+		name: 'Gabriel Montagna',
+		role: 'Developer / AI Engineer',
+		email: 'gabrielmacedomontagna@hotmail.com',
+		location: 'Campinas, Brazil',
+		summary: 'Driven AI Engineer combining hands-on experience in enterprise GenAI platforms, cloud infrastructures (AWS/Google Cloud), and Data Engineering at Aleon with elite research training from Unicamp and MBZUAI, in Abu Dhabi. Seeking to apply advanced skills in Python, system design, and Machine Learning to build robust, production-ready AI models and end-to-end intelligent architectures.',
 		socialLinks: {
-			linkedin: 'https://linkedin.com/in/your-username',
-			github: 'https://github.com/your-username',
-			twitter: 'https://twitter.com/your-username'
+			linkedin: 'https://www.linkedin.com/in/gabriel-montagna-15083025a/',
+			github: 'https://github.com/GabrielMacedoMontagna'
 		}
 	},
 	navItems: [
@@ -36,8 +35,8 @@ export const enData: PortfolioData = {
 		cardLabel: 'Stack used on this site',
 		cardValue: 'SvelteKit • TypeScript • Modern CSS',
 		cardAriaLabel: 'Project technical summary',
-		imageAlt: 'Profile picture or workspace illustration',
-		imagePlaceholderSrc: '/images/hero-placeholder.svg'
+		imageAlt: 'Profile picture of Gabriel Montagna',
+		imagePlaceholderSrc: '/images/ProfilePic.jpeg'
 	},
 	about: {
 		kicker: 'About',
@@ -124,7 +123,7 @@ export const enData: PortfolioData = {
 				featured: true,
 				links: [
 					{ label: 'Live Demo', href: 'https://example.com/demo1' },
-					{ label: 'GitHub Repository', href: 'https://github.com/your-username/project-1' }
+					{ label: 'GitHub Repository', href: 'https://github.com/GabrielMacedoMontagna' }
 				]
 			},
 			{
@@ -136,7 +135,7 @@ export const enData: PortfolioData = {
 				featured: false,
 				links: [
 					{ label: 'Documentation', href: 'https://example.com/docs' },
-					{ label: 'GitHub Repository', href: 'https://github.com/your-username/project-2' }
+					{ label: 'GitHub Repository', href: 'https://github.com/GabrielMacedoMontagna' }
 				]
 			},
 			{
@@ -147,7 +146,7 @@ export const enData: PortfolioData = {
 				tags: ['Rust', 'CLI', 'Open Source'],
 				featured: false,
 				links: [
-					{ label: 'GitHub Repository', href: 'https://github.com/your-username/project-3' }
+					{ label: 'GitHub Repository', href: 'https://github.com/GabrielMacedoMontagna' }
 				]
 			}
 		]
@@ -161,7 +160,7 @@ export const enData: PortfolioData = {
 		socialLabel: 'Social Networks'
 	},
 	footer: {
-		copyright: `© ${new Date().getFullYear()} [Your Name]. All rights reserved.`,
+		copyright: `© ${new Date().getFullYear()} Gabriel Montagna. All rights reserved.`,
 		credit: 'Engineered with SvelteKit & TypeScript.',
 		backToTop: 'Back to top'
 	}

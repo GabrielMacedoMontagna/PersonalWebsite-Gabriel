@@ -4,21 +4,20 @@ export const ptData: PortfolioData = {
 	lang: 'pt',
 	htmlLang: 'pt-BR',
 	seo: {
-		title: '[Seu Nome] | [Seu Cargo / Especialidade]',
-		description: 'Portfólio profissional e currículo online de [Seu Nome]. Especialista em desenvolvimento de software, arquitetura e soluções tecnológicas.',
-		siteName: '[Seu Nome]',
-		keywords: ['Software Engineer', 'Developer', 'Portfólio', 'Tech', 'TypeScript', 'SvelteKit']
+		title: 'Gabriel Montagna | Desenvolvedor / Engenheiro de IA',
+		description: 'Portfólio profissional e currículo online de Gabriel Montagna. Especialista em desenvolvimento de software, arquitetura e soluções tecnológicas.',
+		siteName: 'Gabriel Montagna',
+		keywords: ['Software Engineer', 'Developer', 'AI Engineer', 'Portfólio', 'Tech', 'TypeScript', 'SvelteKit']
 	},
 	profile: {
-		name: '[Seu Nome Completo]',
-		role: '[Seu Cargo / Área de Atuação]',
-		email: 'seu-email@exemplo.com',
-		location: 'São Paulo, Brasil',
-		summary: 'Desenvolvedor focado na construção de produtos digitais robustos, eficientes e escaláveis. Apaixonado por código limpo, boa arquitetura e soluções inovadoras.',
+		name: 'Gabriel Montagna',
+		role: 'Desenvolvedor / Engenheiro de IA',
+		email: 'gabrielmacedomontagna@hotmail.com',
+		location: 'Campinas, Brasil',
+		summary: 'Engenheiro de IA dedicado, combinando experiência prática em plataformas corporativas de GenAI, infraestrutura em nuvem (AWS/Google Cloud) e Engenharia de Dados na Aleon com formação de pesquisa de ponta pela Unicamp e MBZUAI, em Abu Dhabi. Busco aplicar conhecimentos avançados em Python, design de sistemas e Machine Learning para construir modelos de IA robustos e prontos para produção, além de arquiteturas inteligentes de ponta a ponta.',
 		socialLinks: {
-			linkedin: 'https://linkedin.com/in/seu-usuario',
-			github: 'https://github.com/seu-usuario',
-			twitter: 'https://twitter.com/seu-usuario'
+			linkedin: 'https://www.linkedin.com/in/gabriel-montagna-15083025a/',
+			github: 'https://github.com/GabrielMacedoMontagna'
 		}
 	},
 	navItems: [
@@ -36,8 +35,8 @@ export const ptData: PortfolioData = {
 		cardLabel: 'Stack deste site',
 		cardValue: 'SvelteKit • TypeScript • CSS Moderno',
 		cardAriaLabel: 'Resumo técnico do projeto',
-		imageAlt: 'Foto de perfil ou imagem ilustrativa de trabalho',
-		imagePlaceholderSrc: '/images/hero-placeholder.svg'
+		imageAlt: 'Foto de perfil de Gabriel Montagna',
+		imagePlaceholderSrc: '/images/ProfilePic2.jpeg'
 	},
 	about: {
 		kicker: 'Sobre',
@@ -124,7 +123,7 @@ export const ptData: PortfolioData = {
 				featured: true,
 				links: [
 					{ label: 'Demo Online', href: 'https://exemplo.com/demo1' },
-					{ label: 'Código no GitHub', href: 'https://github.com/seu-usuario/projeto-1' }
+					{ label: 'Código no GitHub', href: 'https://github.com/GabrielMacedoMontagna' }
 				]
 			},
 			{
@@ -136,7 +135,7 @@ export const ptData: PortfolioData = {
 				featured: false,
 				links: [
 					{ label: 'Documentação', href: 'https://exemplo.com/docs' },
-					{ label: 'Código no GitHub', href: 'https://github.com/seu-usuario/projeto-2' }
+					{ label: 'Código no GitHub', href: 'https://github.com/GabrielMacedoMontagna' }
 				]
 			},
 			{
@@ -147,7 +146,7 @@ export const ptData: PortfolioData = {
 				tags: ['Rust', 'CLI', 'Open Source'],
 				featured: false,
 				links: [
-					{ label: 'Repositório GitHub', href: 'https://github.com/seu-usuario/projeto-3' }
+					{ label: 'Repositório GitHub', href: 'https://github.com/GabrielMacedoMontagna' }
 				]
 			}
 		]
@@ -161,7 +160,7 @@ export const ptData: PortfolioData = {
 		socialLabel: 'Redes Sociais'
 	},
 	footer: {
-		copyright: `© ${new Date().getFullYear()} [Seu Nome]. Todos os direitos reservados.`,
+		copyright: `© ${new Date().getFullYear()} Gabriel Montagna. Todos os direitos reservados.`,
 		credit: 'Construído com SvelteKit & TypeScript.',
 		backToTop: 'Voltar ao topo'
 	}
