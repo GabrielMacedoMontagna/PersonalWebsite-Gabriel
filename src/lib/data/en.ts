@@ -36,7 +36,7 @@ export const enData: PortfolioData = {
 		cardValue: 'SvelteKit • TypeScript • Modern CSS',
 		cardAriaLabel: 'Project technical summary',
 		imageAlt: 'Profile picture of Gabriel Montagna',
-		imagePlaceholderSrc: '/images/ProfilePic.jpeg'
+		imagePlaceholderSrc: '/images/ProfilePic2.jpeg'
 	},
 	about: {
 		kicker: 'About',
