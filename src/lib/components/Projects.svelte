@@ -24,7 +24,7 @@
 					<div class="project-header">
 						<span class="project-type">{project.type}</span>
 						{#if project.featured}
-							<span class="featured-badge">Destaque</span>
+							<span class="featured-badge">{content.featuredLabel || 'Featured'}</span>
 						{/if}
 					</div>
 

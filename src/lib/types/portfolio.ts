@@ -13,6 +13,7 @@ export interface Profile {
 	name: string;
 	role: string;
 	email: string;
+	phone?: string;
 	location: string;
 	summary: string;
 	socialLinks: SocialLinks;
@@ -97,6 +98,7 @@ export interface ProjectsContent {
 	title: string;
 	contactLink: string;
 	tagsLabel: string;
+	featuredLabel?: string;
 	items: ProjectItem[];
 }
 
@@ -106,6 +108,8 @@ export interface ContactContent {
 	description: string;
 	emailCta: string;
 	emailLabel: string;
+	phoneCta?: string;
+	phoneLabel?: string;
 	socialLabel: string;
 }
 
